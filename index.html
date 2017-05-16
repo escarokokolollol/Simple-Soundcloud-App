@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Soundcloud App</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+  <script type="text/javascript">
+
+  </script>
+
+    <div id="inputfield">
+     <form id="form">
+      <input id="track_url" type="text" name="track_url" placeholder="PLAYLISTURL GOES HERE... THEN PRESS ENTER">
+      <input type="submit" name="">
+     </form>
+
+      <div id="recent-btn">recent</div>
+
+    </div>
+
+    <div id="iframe-div"></div>
+
+    <div id="before-iframe"></div>
+
+
+  </body>
+  <!-- bra -->
+  <script src="https://connect.soundcloud.com/sdk/sdk-3.1.2.js"></script>
+
+  <!-- skit -->
+  <script type="text/javascript" src="http://w.soundcloud.com/player/api.js"></script>
+
+  <script>
+    // You can also require other files to run in this process
+    require('./renderer.js')
+  </script>
+
+
+
+
+</html>

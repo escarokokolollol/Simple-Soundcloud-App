@@ -1,0 +1,27 @@
+{
+  "name": "Soundcloud-app",
+  "version": "1.0.0",
+  "description": "A simple Soundcloud streamer. Just add the playlistlink and it will play in an own player instead of the browser",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . SoundcloudApp --icon=Icon.icns"
+  },
+  "repository": "",
+  "keywords": [
+    "Soundcloud",
+    "Simpe",
+    "Player",
+    "Music",
+    "Test",
+    "Playlist",
+    "Plyalists"
+  ],
+  "author": "Oscar Ek",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^1.4.1",
+    "electron-packager": "^8.5.1",
+    "electron-shortcut": "^0.5.0"
+  }
+}
